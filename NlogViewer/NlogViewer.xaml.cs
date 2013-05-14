@@ -54,6 +54,9 @@ namespace NlogViewer
                     LogEntries.RemoveAt(0);
                 
                 LogEntries.Add(vm);
+
+                logView.ScrollIntoView(LogEntries.Last());
+
             }));
         }
     }

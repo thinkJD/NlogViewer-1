@@ -7,6 +7,7 @@
              d:DesignHeight="230" d:DesignWidth="457"
              DataContext="{Binding RelativeSource={RelativeSource Self}}">
     <UserControl.Resources>
+
     </UserControl.Resources>
     <Grid>
         <ListView ItemsSource="{Binding LogEntries}" Name="logView">

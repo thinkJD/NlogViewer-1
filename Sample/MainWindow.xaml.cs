@@ -74,6 +74,11 @@ namespace Sample
             log.Debug("Backgroundtask stopped.");
         }
 
+        private void btnClear_Click(object sender, RoutedEventArgs e)
+        {
+            this.logCtrl.Clear();
+        }
+
 
     }
 }

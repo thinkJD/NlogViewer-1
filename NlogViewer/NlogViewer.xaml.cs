@@ -59,5 +59,10 @@ namespace NlogViewer
 
             }));
         }
+
+        public void Clear()
+        {
+            LogEntries.Clear();
+        }
     }
 }

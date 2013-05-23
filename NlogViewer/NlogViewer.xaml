@@ -31,10 +31,10 @@
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
-                        <GridViewColumn DisplayMemberBinding="{Binding LoggerName}" Header="Logger"/>
+                        <!--GridViewColumn DisplayMemberBinding="{Binding LoggerName}" Header="Logger"/-->
                         <GridViewColumn DisplayMemberBinding="{Binding Level}" Header="Level"/>
                         <GridViewColumn DisplayMemberBinding="{Binding FormattedMessage}" Width="500" Header="Message"/>
-                        <GridViewColumn DisplayMemberBinding="{Binding Exception}" Header="Exception"/>
+                        <!--GridViewColumn DisplayMemberBinding="{Binding Exception}" Header="Exception"/-->
                     </GridView.Columns>
                 </GridView>
             </ListView.View>
